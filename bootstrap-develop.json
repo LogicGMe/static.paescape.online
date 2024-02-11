@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "a60415980a8911449091f7dc7dadf3bbef0c728e",
+    "buildCommit": "db50b481ebbacf2d250fc3a2f6dd08f2b9a643d0",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Dpaescape.launcher.nojvm=true",
@@ -25,7 +25,7 @@
         "-XX:CompileThreshold=1500"
     ],
     "dependencyHashes": {
-        "PaeScape-0.0.1.jar": "e80695705e361793c17a55fc2f545b16d568e1cdb0da8c6728c1e57873a3fca2"
+        "PaeScape-0.0.1.jar": "2c32d6eb16256c042555caabe4aa60ce1e38825739aa10073c73db21aac400e1"
     },
     "launcherJvm17MacArguments": [
         "-XX:+DisableAttachMechanism",
@@ -99,7 +99,7 @@
             "path": "https://static.paescape.online/develop/PaeScape-0.0.1.jar",
             "size": 49011754,
             "name": "PaeScape-0.0.1.jar",
-            "hash": "e80695705e361793c17a55fc2f545b16d568e1cdb0da8c6728c1e57873a3fca2"
+            "hash": "2c32d6eb16256c042555caabe4aa60ce1e38825739aa10073c73db21aac400e1"
         }
     ]
 }
