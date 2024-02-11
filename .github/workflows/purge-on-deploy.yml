@@ -1,9 +1,11 @@
 name: Purge Cloudflare Cache
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    branches: [main]
+    types: 
+      - completed
 
 jobs:
   purge-cloudflare-cache:
