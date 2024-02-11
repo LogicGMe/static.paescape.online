@@ -1,0 +1,105 @@
+{
+    "clientJvm17Arguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
+        "-Dawt.useSystemAAFontSettings=on",
+        "-Dswing.aatext=true"
+    ],
+    "launcherJvm17Arguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Dpaescape.launcher.nojvm=true",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
+    ],
+    "buildCommit": "85c9c338c73819406c245c52298454637d73f6df",
+    "launcherJvm11Arguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Dpaescape.launcher.nojvm=true",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500"
+    ],
+    "dependencyHashes": {
+        "PaeScape-0.0.1.jar": "5fac6c80a26166ee8522ebb925c17fb029c874221e26a77aeae7a76f2f72006a"
+    },
+    "launcherJvm17MacArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Dpaescape.launcher.nojvm=true",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
+        "--add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED"
+    ],
+    "clientJvmArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "-Xincgc",
+        "-XX:+UseConcMarkSweepGC",
+        "-XX:+UseParNewGC",
+        "-Dawt.useSystemAAFontSettings=on",
+        "-Dswing.aatext=true"
+    ],
+    "launcherArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Dpaescape.launcher.nojvm=true",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "-Xincgc",
+        "-XX:+UseConcMarkSweepGC",
+        "-XX:+UseParNewGC"
+    ],
+    "launcherJvm17WindowsArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Dpaescape.launcher.nojvm=true",
+        "-Dpaescape.launcher.blacklistedDlls=RTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,k_fps32.dll,k_fps64.dll",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
+    ],
+    "minimumLauncherVersion": "1.0.0",
+    "launcherJvm11WindowsArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Dpaescape.launcher.nojvm=true",
+        "-Dpaescape.launcher.blacklistedDlls=RTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,k_fps32.dll,k_fps64.dll",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500"
+    ],
+    "clientJvm9Arguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "-Dawt.useSystemAAFontSettings=on",
+        "-Dswing.aatext=true"
+    ],
+    "clientJvm17MacArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
+        "--add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED",
+        "-Dawt.useSystemAAFontSettings=on",
+        "-Dswing.aatext=true"
+    ],
+    "projectVersion": "0.0.1",
+    "artifacts": [
+        {
+            "path": "https://static.paescape.online/develop/PaeScape-0.0.1.jar",
+            "size": 49011754,
+            "name": "PaeScape-0.0.1.jar",
+            "hash": "5fac6c80a26166ee8522ebb925c17fb029c874221e26a77aeae7a76f2f72006a"
+        }
+    ]
+}
