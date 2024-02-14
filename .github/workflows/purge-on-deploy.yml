@@ -9,7 +9,7 @@ on:
 
 jobs:
   purge-cloudflare-cache:
-    name: Puge Cloudflare Cache
+    name: Purge Cloudflare Cache
     runs-on: ubuntu-latest
 
     steps:
