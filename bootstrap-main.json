@@ -1,105 +1,45 @@
 {
-    "clientJvm17Arguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500",
-        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
-        "-Dawt.useSystemAAFontSettings=on",
-        "-Dswing.aatext=true"
-    ],
-    "launcherJvm17Arguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Dpaescape.launcher.nojvm=true",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500",
-        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
-    ],
-    "buildCommit": "0978bc9e325b4831612fc124f4826de205618807",
-    "launcherJvm11Arguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Dpaescape.launcher.nojvm=true",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500"
-    ],
-    "dependencyHashes": {
-        "PaeScape-0.0.1.jar": "e56fc3097b45a76e1de910aefcebf433a9315279bba651e02e0654f687998abf"
-    },
-    "launcherJvm17MacArguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Dpaescape.launcher.nojvm=true",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500",
-        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
-        "--add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED"
-    ],
-    "clientJvmArguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500",
-        "-Xincgc",
-        "-XX:+UseConcMarkSweepGC",
-        "-XX:+UseParNewGC",
-        "-Dawt.useSystemAAFontSettings=on",
-        "-Dswing.aatext=true"
-    ],
-    "launcherArguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Dpaescape.launcher.nojvm=true",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500",
-        "-Xincgc",
-        "-XX:+UseConcMarkSweepGC",
-        "-XX:+UseParNewGC"
-    ],
-    "launcherJvm17WindowsArguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Dpaescape.launcher.nojvm=true",
-        "-Dpaescape.launcher.blacklistedDlls=RTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,k_fps32.dll,k_fps64.dll",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500",
-        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
-    ],
-    "minimumLauncherVersion": "1.0.0",
-    "launcherJvm11WindowsArguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Dpaescape.launcher.nojvm=true",
-        "-Dpaescape.launcher.blacklistedDlls=RTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,k_fps32.dll,k_fps64.dll",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500"
-    ],
-    "clientJvm9Arguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500",
-        "-Dawt.useSystemAAFontSettings=on",
-        "-Dswing.aatext=true"
-    ],
-    "clientJvm17MacArguments": [
-        "-XX:+DisableAttachMechanism",
-        "-Xmx1g",
-        "-Xss2m",
-        "-XX:CompileThreshold=1500",
-        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
-        "--add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED",
-        "-Dawt.useSystemAAFontSettings=on",
-        "-Dswing.aatext=true"
-    ],
-    "projectVersion": "0.0.1",
-    "artifacts": [
-        {
-            "path": "https://static.paescape.online/main/PaeScape-0.0.1.jar",
-            "size": 49065800,
-            "name": "PaeScape-0.0.1.jar",
-            "hash": "e56fc3097b45a76e1de910aefcebf433a9315279bba651e02e0654f687998abf"
-        }
-    ]
+  "version": "1.0.0",
+  "minimumLauncherVersion": "1.0.0",
+  "requiredJVMVersion": "11",
+  "artifacts": [
+    {
+      "name": "PaeScape-0.0.1.jar",
+      "path": "http://154.12.255.245:8080/PaeScape-0.0.1.jar",
+      "hash": "96a489ac416622c4f6fb1e5b12da99f0fda8cfbe0d04714e6c5983211d311e52",
+      "size": 49065300,
+      "platform": null
+    }
+  ],
+  "clientJvm11Arguments": [
+    "-Xmx2g",
+    "-Xss2m",
+    "-XX:CompileThreshold=1500",
+    "-XX:+UseConcMarkSweepGC",
+    "-XX:+UseParNewGC",
+    "-XX:+UseCMSInitiatingOccupancyOnly",
+    "-XX:CMSInitiatingOccupancyFraction=70",
+    "-XX:+UseStringDeduplication",
+    "-Djava.net.preferIPv4Stack=true",
+    "-Djava.net.preferIPv4Addresses=true"
+  ],
+  "clientJvm17Arguments": [
+    "-Xmx2g",
+    "-Xss2m",
+    "-XX:+UseG1GC",
+    "-XX:+UseStringDeduplication",
+    "-Djava.net.preferIPv4Stack=true",
+    "-Djava.net.preferIPv4Addresses=true"
+  ],
+  "launcherJvm11Arguments": [
+    "-Xmx512m",
+    "-Djava.net.preferIPv4Stack=true",
+    "-Djava.net.preferIPv4Addresses=true"
+  ],
+  "launcherJvm17Arguments": [
+    "-Xmx512m",
+    "-Djava.net.preferIPv4Stack=true",
+    "-Djava.net.preferIPv4Addresses=true"
+  ]
 }
+
